@@ -2,6 +2,7 @@ package com.greenmile.routes.models
 
 import javax.persistence.*
 
+@Entity
 data class Route (
     @Id
     @GeneratedValue
